@@ -131,37 +131,37 @@ const cards = [
         help    : ""
       },
       {
-        swedish : "",
+        swedish : "d",
         english : ["and"],
         help    : ""
       },
       {
-        swedish : "",
+        swedish : "d",
         english : ["but"],
         help    : ""
       },
       {
-        swedish : "",
+        swedish : "d",
         english : ["can"],
         help    : ""
       },
       {
-        swedish : "",
+        swedish : "d",
         english : ["day"],
         help    : ""
       },
       {
-        swedish : "",
+        swedish : "d",
         english : ["for"],
         help    : ""
       },
       {
-        swedish : "",
+        swedish : "d",
         english : ["get"],
         help    : ""
       },
       {
-        swedish : "",
+        swedish : "d",
         english : ["her"],
         help    : ""
       }
