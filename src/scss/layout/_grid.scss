@@ -1,0 +1,23 @@
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.col {
+  flex: 0 calc(100% - #{$gutter});
+  margin: $gutter-half;
+}
+
+@media (min-width: $medium) {
+  .col {
+    flex: 0 calc(50% - #{$gutter});
+  }
+}
+
+@media (min-width: $large) {
+  .col {
+    flex: 0 calc(33.33% - #{$gutter});
+  }
+}

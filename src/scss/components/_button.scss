@@ -1,0 +1,14 @@
+
+.button {
+  background: $color-prim;
+  padding: $gutter-half;
+  text-align: center;
+  border-radius: $height-style;
+  border-bottom: $height-style solid $color-prim-darker;
+  &:hover {
+    background: $color-prim-dark;
+  }
+  &:active {
+    background: $color-prim-darker;
+  }
+}

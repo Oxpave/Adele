@@ -1,0 +1,44 @@
+
+.card {
+  padding: $gutter-sec;
+  @extend %box;
+}
+
+.card__heading {
+  display: flex;
+  align-items: center;
+  margin: 0 0 $gutter 0;
+}
+
+.heading__title {
+  flex: 0 100%;
+  &--span {
+    color: $black-lighter;
+  }
+}
+
+.heading__level {
+  display: flex;
+  align-items: center;
+  margin: auto;
+  background: $white-darker;
+  border-radius: $gutter-half;
+  padding: $gutter-half;
+  color: $black-light;
+}
+
+.level__indicator {
+  height: $gutter-half;
+  width: $gutter-half;
+  border-radius: 100%;
+  margin: 0 $gutter-half 0 0;
+  &--easy {
+    background: $green;
+  }
+  &--average {
+    background: $yellow;
+  }
+  &--hard {
+    background: $red;
+  }
+}

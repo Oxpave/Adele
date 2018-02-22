@@ -1,0 +1,7 @@
+
+.return {
+  @extend %box;
+  max-width: $small;
+  margin: $gutter auto;
+  padding: $gutter-sec;
+}

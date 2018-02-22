@@ -1,0 +1,44 @@
+
+// Default colors
+
+$black              : #333333;
+$black-light        : #666666;
+$black-lighter      : #999999;
+
+$white              : #ffffff;
+$white-dark         : #eeeeee;
+$white-darker       : #dddddd;
+
+$green              : green;
+$yellow             : yellow;
+$red                : red;
+
+// Functional colors
+
+$color-prim         : tomato;
+$color-prim-dark    : darken($color-prim, 5%);
+$color-prim-darker  : darken($color-prim, 10%);
+
+// Default height
+
+$height-prim        : 80px;
+
+$height-style       : 2px;
+
+// Gutter
+
+$gutter             : 20px;
+$gutter-sec         : 30px;
+$gutter-half        : calc(#{$gutter} / 2);
+
+// Font stacks
+
+$stack-default      : Arial, Helvetica, sans-serif;
+$stack-nunito       : Nunito, sans-serif;
+$stack-marker       : 'Permanent Marker', cursive;
+
+// Breakpoints
+
+$large              : calc-breakpoint(1200px, $gutter);
+$medium             : calc-breakpoint(800px, $gutter);
+$small              : calc-breakpoint(500px, $gutter);

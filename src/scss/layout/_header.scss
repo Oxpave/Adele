@@ -1,0 +1,17 @@
+
+.header {
+  background: $white;
+  height: $height-prim;
+  box-shadow: 0 $height-style 0 $white-darker;
+  text-align: center;
+}
+
+.logo {
+  font-family: $stack-marker;
+  font-size: 2.5em;
+  line-height: $height-prim;
+  color: $black-lighter;
+  &--span {
+    color: $color-prim;
+  }
+}

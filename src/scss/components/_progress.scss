@@ -1,0 +1,12 @@
+
+.progress {
+  @extend %box;
+  margin: $gutter 0;
+}
+
+.progress__bar {
+  height: $gutter-half;
+  width: 0;
+  background: $green;
+  transition: 0.5s ease-in-out;
+}

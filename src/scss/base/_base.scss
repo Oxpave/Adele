@@ -1,0 +1,21 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.app {
+  background: $white-dark;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: $stack-nunito;
+  color: $black;
+}
+
+a {
+  text-decoration: none;
+  color: $white;
+  display: block;
+}

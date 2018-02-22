@@ -1,0 +1,6 @@
+
+.layout {
+  max-width: $large;
+  width: calc(100% - #{$gutter});
+  margin: $gutter-half auto;
+}

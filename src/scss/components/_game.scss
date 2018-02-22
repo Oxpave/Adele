@@ -1,0 +1,54 @@
+
+.game {
+  background: $white;
+  padding: calc(#{$gutter}*2);
+  @extend %box;
+  margin: $gutter-half auto;
+  max-width: $small;
+  text-align: center;
+}
+
+.game__swedish {
+}
+
+.game__help {
+  color: $black-lighter;
+  font-style: italic;
+  margin: $gutter 0;
+}
+
+.game__counter {
+  color: $black-lighter;
+  margin: $gutter 0 0 0;
+}
+
+input {
+  font-size: 1.5em;
+  font-family: $stack-nunito;
+  border: none;
+  outline: none;
+  padding: $gutter;
+  border-bottom: 4px solid #ddd;
+  width: 100%;
+}
+
+.wrong {
+  animation: pulse 1s;
+}
+
+@keyframes pulse {
+  0%  { border-bottom: calc(#{$height-style*2}) solid $white-darker; background: none;}
+  50% { border-bottom: 4px solid $red; background: none; }
+  100% { border-bottom: 4px solid $white-darker; background: none; }
+}
+
+.check {
+  display: block;
+  animation: grow 1s ease-in-out infinite;
+}
+
+@keyframes grow {
+  0%  { height: 60px; margin: 40px auto; }
+  50% { height: 100px; margin: 20px auto; }
+  100%{ height: 60px; margin: 40px auto; }
+}
